@@ -1,0 +1,57 @@
+body {
+    background-image: url(./media/rtbackground3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.Header {
+    display: flex;
+}
+
+.LinkBox {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.Links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 100%;
+    justify-content: flex-end;
+}
+
+.RoninTrailHeading {
+display: flex;
+justify-content: center;
+
+}
+
+.Combat {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.LethalTempoHeading {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    
+}
+
+.LethalTempo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.
